@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlue"
+        tools:context="com.example.a38238.nuancedemo.MainActivity"
+>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:id="@+id/displayText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190px"
+        android:text="Connections" />
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:width="300dp"
+            android:height="300dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/check"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:onClick="onToggleClicked"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
